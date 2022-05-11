@@ -1,7 +1,0 @@
-npm run dev
-npm run build
-npm run zip
-
-npm run svgsprive
-npm run deploy
-npm run purgecss
