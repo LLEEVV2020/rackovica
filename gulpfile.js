@@ -15,10 +15,8 @@ import {
 // Передаем значения в глобальную переменную
 
 global.app = {
-	//isBuild: process.argv.includes('--build'),
-	//isDev: !process.argv.includes('--build'),
-	isBuild: true,
-	isDev: false,
+	isBuild: process.argv.includes('--build'),
+	isDev: !process.argv.includes('--build'),
 	path: path,
 	gulp: gulp,
 	plugins: plugins
