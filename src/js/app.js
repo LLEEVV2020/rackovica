@@ -1,4 +1,4 @@
-import '../../node_modules/bootstrap/dist/js/bootstrap.min.js';
+import '../../node_modules/bootstrap/dist/js/bootstrap.esm.js';
 
 
 import * as flsFunctions from "./modules/functions.js";
