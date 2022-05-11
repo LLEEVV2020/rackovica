@@ -18,7 +18,7 @@ export const html = () => {
 			app.plugins.if(
 				app.isBuild, webpHtmlNosvg()))
 		.pipe(app.plugins.if(
-			app.isBuild, versionNumber({
+			true, versionNumber({
 				'value': '%DT%',
 				'append': {
 					'key': '_v',
